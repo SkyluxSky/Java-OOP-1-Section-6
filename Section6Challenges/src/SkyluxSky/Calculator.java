@@ -4,6 +4,7 @@ public class Calculator {
     private Floor floor;
     private Carpet carpet;
 
+    //Initiates the floor and carpet classes.
     public Calculator(Floor floor, Carpet carpet) {
         this.floor = floor;
         this.carpet = carpet;
