@@ -32,4 +32,30 @@ public class Dog extends Animal {
         //calls super equivalent of that class -calls animal eat method
         super.eat();
     }
+
+    //Override move method
+    @Override
+    public void move(int speed) {
+        System.out.println("Dog.move Called.");
+        moveLegs(speed);
+        //calls original move method
+        super.move(speed);
+    }
+
+    public void walk(){
+        System.out.println("Dog.walk Called.");
+        //Does not call Dog.move()
+        super.move(5);
+    }
+
+    public void run(){
+        System.out.println("Dog.run Called.");
+        move(10);
+    }
+
+    public void moveLegs(int speed){
+        System.out.println("Dog.moveLegs Called.");
+    }
+
+
 }

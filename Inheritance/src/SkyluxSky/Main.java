@@ -10,5 +10,10 @@ public class Main {
         Dog dog = new Dog("Husky",6,25,2,4,1,45,"White");
         //Calls eat from animal class.
         dog.eat();
+        dog.walk();
+        //dog.run();
+
+
+        Fish fish = new Fish("PufferFish",3,1,2,2,4);
     }
 }
