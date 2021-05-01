@@ -15,5 +15,6 @@ public class Main {
 
 
         Fish fish = new Fish("PufferFish",3,1,2,2,4);
+        fish.swim(10);
     }
 }
