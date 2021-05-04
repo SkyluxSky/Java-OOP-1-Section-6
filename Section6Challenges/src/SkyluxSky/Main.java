@@ -8,5 +8,8 @@ public class Main {
         calculator.setSecondNumber(4);
         System.out.println("add = " + calculator.getAdditionResults());
 
+        Cuboid cube = new Cuboid(3.2,3.4,3);
+        System.out.println("Total Volume: " + cube.getVolume());
+
     }
 }
